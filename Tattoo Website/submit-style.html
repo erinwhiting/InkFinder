@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Your Style – Ink Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="site-header">
+    <div class="logo">Ink Finder</div>
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="find-artists.html">Find Artists</a>
+        <a href="submit-style.html" class="active">Submit Your Style</a>
+        <a href="login.html">Login/Create Account</a>
+        <a href="profile.html">Profile</a>
+    </nav>
+</header>
+
+<main>
+    <section class="submit-style">
+        <h2>Submit Your Tattoo Style</h2>
+
+        <form id="styleForm">
+            <label>Preferred Style:</label>
+            <select id="styleSelect">
+                <option value="blackwork">Blackwork</option>
+                <option value="traditional">Traditional</option>
+                <option value="fine line">Fine Line</option>
+                <option value="realism">Realism</option>
+                <option value="neo-traditional">Neo-Traditional</option>
+                <option value="japanese">Japanese</option>
+            </select>
+
+            <label>Description (optional):</label>
+            <textarea id="styleDescription" rows="5"></textarea>
+
+            <button type="submit">Submit Style</button>
+        </form>
+
+        <p id="styleMessage"></p>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

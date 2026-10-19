@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Artists – Ink Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="site-header">
+    <div class="logo">Ink Finder</div>
+    <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="find-artists.html" class="active">Find Artists</a>
+        <a href="submit-style.html">Submit Your Style</a>
+        <a href="login.html">Login/Create Account</a>
+        <a href="profile.html">Profile</a>
+    </nav>
+</header>
+
+<main>
+    <section class="find-artists">
+        <h2>Find Artists</h2>
+
+        <div class="search-bar">
+            <input type="text" id="artistSearch" placeholder="Search artists or styles...">
+        </div>
+
+        <div class="artists-grid" id="artistList">
+            <article class="artist" data-style="fine line">
+                <img src="images/SarahInk.png" alt="Sarah Ink">
+                <h3>Sarah Ink</h3>
+                <p>Fine Line • 10 years experience</p>
+                <button>View Profile</button>
+            </article>
+
+            <article class="artist" data-style="japanese">
+                <img src="images/MikeTanaka.png" alt="Mike Tanaka">
+                <h3>Mike Tanaka</h3>
+                <p>Japanese • 8 years experience</p>
+                <button>View Profile</button>
+            </article>
+
+            <article class="artist" data-style="neo-traditional">
+                <img src="images/LunaRose.png" alt="Luna Rose">
+                <h3>Luna Rose</h3>
+                <p>Neo-Traditional • 12 years experience</p>
+                <button>View Profile</button>
+            </article>
+        </div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
